@@ -18,6 +18,8 @@
     font-weight: 300;
 }
 
+
+
 .contact-title img.theme-pattern {
     /* Adjust positioning for theme_patern image */
     position: relative;
@@ -123,65 +125,69 @@
 
 @media(max-width:768px) {
     .contact {
-        gap: 50px;
-        margin: 50px 70px;
-        align-items: start;
+        gap: 30px;
+        /* Reduced gap between elements for better spacing */
+        margin: 30px 20px;
+        /* Adjusted margin for better spacing */
+        align-items: center;
+        /* Center items vertically for better alignment */
     }
 
     .contact-title h1 {
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
+        /* Reduced font size for better readability */
         font-weight: 600;
-
     }
 
     .contact-section {
         flex-direction: column;
+        /* Adjusted direction for better layout */
     }
 
     .contact-left {
         flex-direction: column;
-        gap: 10;
+        /* Adjusted direction for better layout */
+        gap: 10px;
+        /* Reduced gap between elements for better spacing */
     }
 
     .contact-left h1 {
-        font-size: 50px;
-
+        font-size: 40px;
+        /* Reduced font size for better readability */
     }
 
     .contact-left p {
-        font-size: 18px;
+        font-size: 16px;
+        /* Reduced font size for better readability */
     }
 
     .contact-detail {
-        gap: 20px;
+        gap: 15px;
+        /* Reduced gap between elements for better spacing */
     }
 
     .contact-detail img {
-        width: 35px;
-
-
+        width: 30px;
+        /* Reduced image width for better fit */
     }
 
     .contact-right label {
-        font-size: 19px;
-
+        font-size: 16px;
+        /* Reduced font size for better readability */
     }
 
-    .contact-right input {
-        width: 100%;
-        font-size: 19px;
-    }
-
+    .contact-right input,
     .contact-right textarea {
         width: 100%;
-        font-size: 20px;
-
+        font-size: 16px;
+        /* Reduced font size for better readability */
     }
 
     .contact-submit {
-        font-size: 18px;
-        padding: 15px 40px;
+        font-size: 16px;
+        /* Reduced font size for better readability */
+        padding: 10px 30px;
+        /* Reduced padding for better spacing */
     }
-
 }

@@ -62,25 +62,31 @@
 
 @media(max-width:768px) {
     .navbar {
-        margin: 20px 50px;
+        margin: 10px 30px;
+        /* Adjusted margin for better spacing */
     }
 
     .nav-connect {
         display: none;
+        /* Hiding the connect button on smaller screens */
     }
 
     .nav-mob-open {
         display: block;
         position: fixed;
-        right: 30px;
+        right: 20px;
+        /* Adjusted position for better alignment */
     }
 
     .nav-mob-close {
         display: block;
         position: relative;
-        top: 30 px;
-        left: 290px;
-        width: 30px;
+        top: 20px;
+        /* Adjusted position for better alignment */
+        left: 240px;
+        /* Adjusted position for better alignment */
+        width: 25px;
+        /* Adjusted width for better fit */
     }
 
     .nav-menu {
@@ -88,21 +94,25 @@
         flex-direction: column;
         align-items: start;
         top: 0;
-        gap: 30px;
+        gap: 20px;
+        /* Reduced gap between menu items for better spacing */
         background-color: #1f0016;
-        width: 350px;
+        width: 280px;
+        /* Reduced width for better fit on smaller screens */
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
-        right: -350px;
-
+        right: -280px;
+        /* Adjusted right position for better alignment */
     }
 
     .nav-menu li {
-        font-size: 30px;
-        padding-left: 100px;
+        font-size: 24px;
+        /* Reduced font size for better readability */
+        padding-left: 60px;
+        /* Reduced padding for better fit */
         flex-direction: row;
-        gap: 20px;
+        gap: 15px;
+        /* Reduced gap between elements for better spacing */
     }
-
 }

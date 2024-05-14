@@ -121,47 +121,59 @@
 
 @media(max-width:768px) {
     .about {
-        gap: 80px;
-        margin: 50px 70px;
-        align-items: start;
+        gap: 40px;
+        /* Reduced gap between elements for better spacing */
+        margin: 30px 20px;
+        /* Adjusted margin for better spacing */
+        align-items: center;
+        /* Centering items for better alignment */
     }
 
     .about-title h1 {
-        font-size: 50px;
+        font-size: 40px;
+        /* Reduced font size for better readability */
         padding: 0;
     }
 
     .about-title img {
-        width: 50px;
-        right: -20px;
+        width: 40px;
+        /* Reduced image width for better fit */
+        right: -10px;
+        /* Adjusted position for better alignment */
     }
 
     .about-sections {
         flex-direction: column;
-
+        /* Adjusted direction for better layout */
     }
 
     .about-left {
         display: none;
+        /* Hiding the left section on smaller screens */
     }
 
     .about-para {
-        font-size: 16px;
-        line-height: 32px;
-
+        font-size: 14px;
+        /* Reduced font size for better readability */
+        line-height: 28px;
+        /* Adjusted line height for better readability */
     }
 
     .about-skill {
-        gap: 20px;
-        align-items: center;
+        gap: 15px;
+        /* Reduced gap between elements for better spacing */
+        align-items: flex-start;
+        /* Adjusted alignment for better layout */
     }
 
     .about-skill p {
-        font-size: 18px;
+        font-size: 16px;
+        /* Adjusted font size for better readability */
     }
 
     .about-skill hr {
-        height: 5px;
+        height: 3px;
+        /* Reduced height for better fit */
     }
 
     .about-achievements {

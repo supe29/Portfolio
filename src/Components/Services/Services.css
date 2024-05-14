@@ -86,38 +86,46 @@
 
 @media(max-width:768px) {
     .services {
-        align-items: start;
-        gap: 70px;
-        margin: 20px 70px;
+        align-items: center;
+        /* Center items vertically for better alignment */
+        gap: 30px;
+        /* Reduced gap between elements for better spacing */
+        margin: 10px 20px;
+        /* Adjusted margin for better spacing */
     }
 
     .services-title h1 {
         padding: 0;
-        font-size: 50px;
-
+        font-size: 40px;
+        /* Reduced font size for better readability */
     }
 
     .services-title img {
-        width: 50px;
-        margin-right: -20px;
-
+        width: 40px;
+        /* Reduced image width for better fit */
+        margin-right: -10px;
+        /* Adjusted margin for better alignment */
     }
 
     .services-format {
-        gap: 20px;
-        padding: 32px;
-
+        gap: 15px;
+        /* Reduced gap between elements for better spacing */
+        padding: 20px;
+        /* Reduced padding for better spacing */
     }
 
     .services-format h2 {
-        font-size: 26px;
-
+        font-size: 24px;
+        /* Reduced font size for better readability */
     }
 
     .services-format p {
-        font-size: 16px;
-        line-height: 32px;
-        max-width: 300px;
+        font-size: 14px;
+        /* Reduced font size for better readability */
+        line-height: 28px;
+        /* Adjusted line height for better readability */
+        max-width: 250px;
+        /* Reduced max-width for better fit */
     }
 
     .services-container {

@@ -15,7 +15,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-resume">
                     {/* Link to your hosted CV */}
-                    <a href="https://kaustubh-cv.tiiny.site" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>My resume</a>
+                    <a href="https://cyan-renae-39.tiiny.site" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>My resume</a>
                 </div>
             </div>
         </div>

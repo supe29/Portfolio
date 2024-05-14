@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='footer'>
             <hr className="footer-line" />
             <div className="footer-right">
-                <p>© Copyright 2024 - Designed by kaustubh SUPE</p>
+                <p>© Copyright 2024 - Designed by Kaustubh SUPE</p>
             </div>
             <div className="footer-left">
                 <AnchorLink className='anchor-link' offset={50} href='#home'>
