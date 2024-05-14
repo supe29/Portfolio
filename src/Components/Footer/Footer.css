@@ -1,0 +1,50 @@
+.footer {
+    margin: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-left {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    cursor: pointer;
+
+}
+
+.footer-left p {
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-left:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+
+}
+
+@media(max-width:768px) {
+    .footer {
+        margin: 50px 70px;
+
+    }
+
+    .footer-left {
+        font-size: 10px
+    }
+
+    .footer-right {
+        font-size: 11px;
+    }
+}
