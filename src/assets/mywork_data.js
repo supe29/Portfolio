@@ -43,7 +43,7 @@ const mywork_data = [
     },
     {
         w_no: "06",
-        w_name: "Fitness application with Rest API-analyze and predict data with diffrent machine learning models",
+        w_name: "Fitness application with Rest API-analyze and predict data with different machine learning models",
         w_img: fitbit,
         link: 'https://github.com/supe29/Fitbit-'
     }
