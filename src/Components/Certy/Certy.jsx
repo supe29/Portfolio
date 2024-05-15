@@ -60,7 +60,7 @@ const Certy = () => {
                             <td>Machine learning</td>
                             <td>Udemy</td>
                             <td>Machine Learning, Algorithims, Data Analysis, Data Visualization,  Python, Pandas, Sklearn  </td>
-                            <td><a href="http:https://udemy-certificate.s3.amazonaws.com/pdf/UC-61052efc-1227-441f-a4c4-ef74ba9e6025.pdf" target='_blank' rel="noopener noreferrer" style={{ color: 'white' }}>PDF</a></td>
+                            <td><a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-61052efc-1227-441f-a4c4-ef74ba9e6025.pdf" style={{ color: 'white' }}>PDF</a></td>
                             <td>Nov 2020</td>
                         </tr>
                     </tbody>
