@@ -2,7 +2,7 @@
   "homepage": "http://supe29.github.io/mywebsite",
   "name": "porfolio-react",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
