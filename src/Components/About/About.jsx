@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>As a data analyst and marketing specialist , I specialize in guiding organizations through the entire data lifecycle – from conceptualization and data collection to analysis, interpretation, and compelling presentation of findings. Whether you're just starting to define your data strategy or seeking to enhance your existing data practices. My expertise spans a wide range of tools and techniques including Machine Learning, Data Visualization, Big Data Technologies, Data Engineering, Statistical Analysis, Cloud Platforms, Application development etc.</p>
+                        <p>As a data analyst and marketing specialist , I specialize in guiding organizations through the entire data lifecycle – from conceptualization and data collection to analysis, interpretation, and compelling presentation of findings. Whether you're just starting to define your data strategy or seeking to enhance your existing data practices. My expertise spans a wide range of tools and techniques including Agentic AI,Generative AI, RAG, Machine Learning, Data Visualization, Big Data Technologies, Data Engineering, Statistical Analysis, Cloud Platforms, Application development etc.</p>
                         <p>Alongside my academic achievements, I am an avid badminton player, competing at a high level and embodying qualities of discipline and perseverance. Punctual and enthusiastic, I approach every endeavor with dedication and a commitment to excellence. Additionally, I have honed my proficiency in French, facilitating effective communication and collaboration in diverse environment.</p>
                     </div>
                     <div className="about-skills">
@@ -26,6 +26,7 @@ const About = () => {
                         <div className="about-skill"><p>ReactJS</p><hr style={{ width: "30%" }} /></div>
                         <div className="about-skill"><p>PowerBI</p><hr style={{ width: "55%" }} /></div>
                         <div className="about-skill"><p>Machine-learning</p><hr style={{ width: "50%" }} /></div>
+                        <div className="about-skill"><p>AI Agents & RAG</p><hr style={{ width: "50%" }} /></div>
                         <div className="about-skill"><p>Rest API</p><hr style={{ width: "50%" }} /></div>
                         <div className="about-skill"><p>AWS GCP Azure</p><hr style={{ width: "45%" }} /></div>
                         <div className="about-skill"><p>ETL/ELT</p><hr style={{ width: "50%" }} /></div>

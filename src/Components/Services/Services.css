@@ -4,7 +4,8 @@
     align-content: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px
+    margin: 80px 170px;
+    flex-wrap: wrap;
 }
 
 .services-title {
@@ -12,6 +13,7 @@
 }
 
 .services-title h1 {
+
     padding: 0px 30 px;
     font-size: 60px;
     font-weight: 600;

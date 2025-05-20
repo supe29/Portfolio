@@ -26,8 +26,8 @@ const Services_data = [
     },
     {
         s_no: "06",
-        s_name: "Machine Learning",
-        s_desc: "Machine learning enables systems to learn and improve from experience without being explicitly programmed"
+        s_name: "AI and Machine Learning",
+        s_desc: "Artificial Intelligence (AI) and Machine Learning (ML) empower systems to analyze patterns, make intelligent decisions, and continuously improve without explicit programming. These technologies are at the core of building predictive models, intelligent automation, and data-driven innovation."
     }
 ]
 export default Services_data

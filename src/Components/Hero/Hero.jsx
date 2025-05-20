@@ -7,8 +7,8 @@ const Hero = () => {
     return (
         <div id='home' className='hero'>
             <img src={profile_img} alt="" />
-            <h1><span>I'm Kaustubh Supe, </span>Data Analyst/Engineer based in Paris.</h1>
-            <p>Data analyst and engineer with 3 years of experience adept in Python, SQL, and visualization tools, passionate about driving insights through data</p>
+            <h1><span>Kaustubh Supe, </span> Business Data Analyst at TSG Solution | AI Solutions | Dashboarding | RAG Systems | Cloud & SQL.</h1>
+            <p>As a Business Data Analyst at TSG Solution, I specialize in transforming complex data into actionable insights that drive strategic decisions and measurable business value.</p>
             <div className="hero-action">
                 <div className="hero-connect">
                     <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink>
